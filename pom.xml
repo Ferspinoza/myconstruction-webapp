@@ -51,8 +51,8 @@
         </plugin>
     </plugins>
   </build>
-</project>
-<distributionManagement>
+
+  <distributionManagement>
     <repository>
       <id>artifactory-local</id>
       <name>libs-release-local</name>
@@ -64,3 +64,5 @@
       <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
   </distributionManagement>
+
+</project>
